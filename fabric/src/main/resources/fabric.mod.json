@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bouncer",
+  "version": "${version}",
+  "name": "Bouncer",
+  "description": "Mod used to validate a player's modlist for servers using this mod",
+  "authors": [
+    "ZedDevStuff"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bouncer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zeddevstuff.bouncer.fabric.BouncerFabric"
+    ],
+    "client": [
+      "com.zeddevstuff.bouncer.fabric.client.BouncerFabricClient"
+    ]
+  },
+  "mixins": [
+    "bouncer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.16.5",
+    "java": ">=8",
+    "architectury": ">=1.32.68",
+    "fabric": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
