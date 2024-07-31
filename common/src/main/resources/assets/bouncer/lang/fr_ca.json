@@ -1,0 +1,4 @@
+{
+  "bouncer.forbidden_mod_detected": "Il semble que vous utilisiez un mod interdit (%s). Veuillez le supprimer et réessayer.",
+  "bouncer.modlist_timeout": "La demande de liste de mods a expiré. Veuillez réessayer plus tard."
+}

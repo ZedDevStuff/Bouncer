@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[36,)"
+loaderVersion = "[43,)"
 #issueTrackerURL = ""
 license = "Insert License Here"
 
@@ -16,20 +16,20 @@ Mod used to validate a player's modlist for servers using this mod
 [[dependencies.bouncer]]
 modId = "forge"
 mandatory = true
-versionRange = "[36,)"
+versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.bouncer]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.bouncer]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.32.68,)"
+versionRange = "[6.6.92,)"
 ordering = "AFTER"
 side = "BOTH"

@@ -1,10 +1,9 @@
 package com.zeddevstuff.bouncer.forge;
 
-import me.shedaniel.architectury.platform.forge.EventBuses;
+import com.zeddevstuff.bouncer.Bouncer;
+import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
-import com.zeddevstuff.bouncer.Bouncer;
 
 @Mod(Bouncer.MOD_ID)
 public final class BouncerForge
